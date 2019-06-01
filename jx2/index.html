@@ -1,0 +1,97 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <title>vip视频免费解析</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <meta name="referrer" content="never">
+  <style type="text/css">
+    body,
+    html,
+    div {
+      background-color: black;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="video">
+    <div id="a1"></div>
+  </div>
+  <!-- <script type="text/javascript" src="https://www.miguvideo.com/wap/resource/pc/js/plugins/ckplayer.js" charset="utf-8"></script> -->
+  <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    // function GetQueryString(name) {
+    //   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    //   var r = window.location.search.substr(1).match(reg);
+    //   if (r != null) return unescape(r[2]);
+    //   return null;
+    // }
+    // var vid = GetQueryString("url");
+    // var index = vid.indexOf("https://");
+    // if (index == 0 && document.location.protocol == "http:") {
+    //   document.location.protocol = "https:";
+    // } else {
+    //
+    // }
+
+
+
+    function getUrlParam(name) {
+				// var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				// var r = window.location.search.substr(1).match(reg);
+        var r = window.location.search.substr(1);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+
+    // var videoUrl =Base64.decode(getUrlParam('url'));
+    var vid =getUrlParam('url');
+
+
+    // var vid = 'https://zuikzy.wb699.com/20180124/SwXZX6FB/index.m3u8';
+    // var vid='https://zuikzy.603ee.com/2019/05/17/E83WZswm3t51EDK7/playlist.m3u8';
+    var flashvars = {
+      // f: 'https://www.miguvideo.com/wap/resource/pc/js/plugins/m3u8.swf',
+      // f: 'https://blog.anthill.ink/m3u8.swf',
+      f: 'ckplayer/m3u8/m3u8.swf',
+      a: vid,
+      s: 4,
+      c: 0,
+      p: 1,
+      lv: 0
+    };
+    var params = {
+      bgcolor: '#FFF',
+      allowFullScreen: true,
+      allowScriptAccess: 'always',
+      wmode: 'transparent'
+    };
+    var isiPad = navigator.userAgent.match(/iPad|iPhone|Linux|Android|iPod/i) != null;
+    if (isiPad) {
+      document.getElementById('a1').innerHTML = '<video src="' + vid + '" controls="controls" width="100%" height="100%" preload="preload"></video>';
+      $('<div class="content" id="divBag" style="position: fixed;left: 0px;top: 0px;z-index: 1;background-color: rgba(0,0,0,0);"></div>').appendTo($('body'));
+      $('#divBag').on('click', function() {
+        $('video').get(0).play();
+        $(this).remove();
+      });
+      document.write('<script type="text/javascript" src="/js/z.js"><\/script>');
+    } else {
+      // CKobject.embedSWF('https://www.miguvideo.com/wap/resource/pc/js/plugins/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', flashvars, params);
+      CKobject.embedSWF('ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', flashvars, params);
+    }
+  </script>
+</body>
+
+</html>
