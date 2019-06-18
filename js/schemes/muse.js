@@ -1,3 +1,3 @@
-// build time:Tue Jun 18 2019 11:43:11 GMT+0800 (CST)
+// build time:Tue Jun 18 2019 15:54:02 GMT+0800 (CST)
 $(document).ready(function(){function t(){var t=$("#footer").attr("position")?$(".container").height()+$("#footer").outerHeight(true):$(".container").height();if(t<window.innerHeight)$("#footer").css({position:"fixed",bottom:0,left:0,right:0}).attr("position","fixed");else $("#footer").removeAttr("style position")}t();$(window).on("resize scroll",t)});
 //rebuild by neat 
