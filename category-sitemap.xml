@@ -9,27 +9,24 @@
 
 
     <url>
-        <loc>http://blog.open1024.top/2021/08/08/5da25a0dc669.html</loc>
+        <loc>http://blog.open1024.top/categories/java/</loc>
         <lastmod>2021-08-08T09:49:05.443Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.open1024.top/2021/08/08/a75651fc9ac4.html</loc>
-        <lastmod>2021-08-08T09:21:02.252Z</lastmod>
+        <loc>http://blog.open1024.top/categories/jvm/jmap/</loc>
+        <lastmod>2021-08-08T09:49:05.443Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.open1024.top/2021/08/07/ab0e0abf00a7.html</loc>
-        <lastmod>2021-08-07T12:43:00.384Z</lastmod>
+        <loc>http://blog.open1024.top/categories/jvm/</loc>
+        <lastmod>2021-08-08T09:49:05.443Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>
