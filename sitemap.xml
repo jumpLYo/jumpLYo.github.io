@@ -4,12 +4,17 @@
 
     <sitemap>
         <loc>http://blog.open1024.top/post-sitemap.xml</loc>
-        <lastmod>2021-08-08T09:21:02.252Z</lastmod>
+        <lastmod>2021-08-08T09:39:07.977Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://blog.open1024.top/page-sitemap.xml</loc>
         <lastmod>2021-08-08T05:07:26.353Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://blog.open1024.top/tag-sitemap.xml</loc>
+        <lastmod>2021-08-08T09:39:07.977Z</lastmod>
     </sitemap>
 
 </sitemapindex>

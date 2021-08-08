@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>http://blog.open1024.top/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
-
 
     <url>
-        <loc>http://blog.open1024.top/2021/08/08/5da25a0dc669.html</loc>
+        <loc>http://blog.open1024.top/tags/java/</loc>
         <lastmod>2021-08-08T09:39:07.977Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://blog.open1024.top/2021/08/08/a75651fc9ac4.html</loc>
-        <lastmod>2021-08-08T09:21:02.252Z</lastmod>
+        <loc>http://blog.open1024.top/tags/jvm/</loc>
+        <lastmod>2021-08-08T09:39:07.977Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.open1024.top/2021/08/07/ab0e0abf00a7.html</loc>
-        <lastmod>2021-08-07T12:43:00.384Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>
