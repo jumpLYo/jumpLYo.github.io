@@ -10,14 +10,21 @@
 
     <url>
         <loc>http://blog.open1024.top/categories/java/spring/</loc>
-        <lastmod>2021-10-16T15:21:45.043Z</lastmod>
+        <lastmod>2021-10-16T15:26:35.602Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://blog.open1024.top/categories/java/</loc>
-        <lastmod>2021-10-16T15:21:45.043Z</lastmod>
+        <lastmod>2021-10-16T15:26:35.602Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://blog.open1024.top/categories/java/springMvc/</loc>
+        <lastmod>2021-10-16T15:25:22.219Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
